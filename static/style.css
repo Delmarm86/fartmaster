@@ -1,0 +1,70 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Animated GIF background */
+.background {
+    position: fixed;
+    inset: 0;
+    background-image: url("/static/img/tumblr_0cec54082c4e378e32b2687739b28758_6d7c8f12_400.webp");
+    background-repeat: repeat;        /* 🔁 tile the image */
+    background-size: auto;            /* keep original size */
+    background-position: top left;    /* start tiling from top-left */
+    z-index: -2;
+}
+
+
+/* Dark overlay for readability */
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+/* Main content */
+.content {
+    color: #f5f5f5;
+}
+
+/* Layout styling */
+header {
+    padding: 3rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.skull {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}

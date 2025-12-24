@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fartmaster.biz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="background"></div>
+<div class="overlay"></div>
+
+<div class="content">
+    <header>
+        <h1>fartmaster.biz</h1>
+        <p>Welcome to my site</p>
+    </header>
+
+    <main>
+        <section>
+            <img src="{{ url_for('static', filename='img/tumblr_p6libwwDDo1x9exyfo1_r1_250.webp') }}" alt="My image" class="skull">
+
+
+        </section>
+
+        <section>
+            <ul>
+                <li>📧 <a href="https://redbull.mxrouting.net/roundcube/">Fartmaster Webmail</a></li>
+                <li>🎨 Art Gallery (coming soon)</li>
+                <li>🧪 Experiments (coming soon)</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <img src="{{ url_for('static', filename='img/under-construction.gif') }}" alt="My image" class="skull">
+        <p>© 2025 fartmaster.biz</p>
+    </footer>
+</div>
+
+</body>
+</html>
